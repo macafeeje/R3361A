@@ -47,7 +47,7 @@ if bwl == "":
     print ("word_size out of bounds")
     quit()
 
-if address + size > 0x20000000:
+if address + size > 0x00200000:
     print ("address out of bounds")
     quit()
     
